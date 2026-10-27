@@ -1,8 +1,6 @@
 <div align="center">
 
-# Antônio Wandrey
-
-### Software Developer | Full Stack Development
+![Antônio Wandrey — Software Developer](assets/profile-banner.svg)
 
 Desenvolvimento de aplicações web, sistemas de gestão e soluções orientadas a dados.
 
