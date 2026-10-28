@@ -80,14 +80,12 @@ Projeto de plataforma assistencial voltada ao acompanhamento da saúde feminina,
 
 <div align="center">
 
-<img width="49%" alt="Estatísticas de contribuições" src="./assets/github-contribuicoes.svg" />
-<img width="49%" alt="Linguagens dos repositórios" src="./assets/github-linguagens.svg" />
+  <img width="49%" alt="Estatísticas de contribuições públicas e privadas autorizadas" src="./assets/github-contribuicoes.svg" />
+  <img width="49%" alt="Linguagens dos repositórios públicos e privados" src="./assets/github-linguagens.svg" />
 
-<img width="83%" alt="Sequências de contribuições" src="./assets/github-streak.svg" />
+  <img width="83%" alt="Sequência de contribuições no GitHub" src="./assets/github-streak.svg" />
 
 </div>
-
-<sub>Dashboard atualizado por GitHub Actions após a configuração dos tokens de acesso. Dados agregados, sem divulgação de repositórios privados.</sub>
 
 ---
 
