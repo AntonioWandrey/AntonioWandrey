@@ -1,0 +1,32 @@
+name: Atualizar dashboard do GitHub
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/atualizar_dashboard.py'
+      - '.github/workflows/dashboard.yml'
+  schedule:
+    - cron: '0 9 * * *'
+permissions:
+  contents: write
+jobs:
+  dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Gerar SVGs
+        run: python3 scripts/atualizar_dashboard.py
+        env:
+          DASHBOARD_PROFILE_TOKEN: ${{ secrets.DASHBOARD_PROFILE_TOKEN }}
+          DASHBOARD_REPOS_TOKEN: ${{ secrets.DASHBOARD_REPOS_TOKEN }}
+      - name: Salvar dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/github-contribuicoes.svg assets/github-linguagens.svg assets/github-streak.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: atualizar dashboard de atividade"
+            git push
+          fi
