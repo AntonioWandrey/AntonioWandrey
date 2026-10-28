@@ -80,14 +80,14 @@ Projeto de plataforma assistencial voltada ao acompanhamento da saúde feminina,
 
 <div align="center">
 
-<img width="49%" alt="Estatísticas de atividade do GitHub" src="https://github-readme-stats.vercel.app/api?username=AntonioWandrey&amp;show_icons=true&amp;hide_border=false&amp;bg_color=0D1117&amp;title_color=58A6FF&amp;text_color=C9D1D9&amp;icon_color=58A6FF&amp;border_color=30363D&amp;locale=pt-br" />
-<img width="49%" alt="Linguagens mais utilizadas em repositórios públicos" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AntonioWandrey&amp;layout=compact&amp;hide_border=false&amp;bg_color=0D1117&amp;title_color=58A6FF&amp;text_color=C9D1D9&amp;border_color=30363D&amp;langs_count=6&amp;locale=pt-br" />
+<img width="49%" alt="Estatísticas de contribuições" src="./assets/github-contribuicoes.svg" />
+<img width="49%" alt="Linguagens dos repositórios" src="./assets/github-linguagens.svg" />
 
-<img width="83%" alt="Sequência de contribuições no GitHub" src="https://streak-stats.demolab.com?user=AntonioWandrey&amp;background=0D1117&amp;border=30363D&amp;stroke=30363D&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF&amp;sideLabels=C9D1D9&amp;dates=8B949E&amp;currStreakNum=F0F6FC&amp;sideNums=F0F6FC&amp;hide_border=false&amp;locale=pt_BR" />
+<img width="83%" alt="Sequências de contribuições" src="./assets/github-streak.svg" />
 
 </div>
 
-<sub>Os painéis são gerados por serviços externos e podem apresentar indisponibilidade temporária. As linguagens refletem os repositórios públicos identificados pelo serviço e não representam necessariamente o nível de proficiência.</sub>
+<sub>Dashboard atualizado por GitHub Actions após a configuração dos tokens de acesso. Dados agregados, sem divulgação de repositórios privados.</sub>
 
 ---
 
